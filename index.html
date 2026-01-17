@@ -44,7 +44,7 @@
         }
 
         /* Ad Space Styling */
-        .promo-area {
+        .ad-slot {
             background: rgba(0, 0, 0, 0.05);
             border: 2px dashed #475569;
             display: flex;
@@ -57,7 +57,7 @@
             overflow: hidden;
         }
 
-        .dark .promo-area {
+        .dark .ad-slot {
             background: rgba(255, 255, 255, 0.03);
             border-color: #334155;
         }
@@ -151,12 +151,8 @@
                     </div>
 
                     <!-- Sidebar Ad Slot -->
-                    <!-- Sidebar Ad Slot -->
-                    <div class="promo-area h-60 w-full text-[10px] mt-4 relative">
-                        <!-- ADSTERRA 300x250 SIDEBAR CODE GOES HERE -->
-                        <span class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                            [SIDEBAR AD SPACE - 300x250]
-                        </span>
+                    <div class="ad-slot h-60 w-full text-[10px] mt-4">
+                        [SIDEBAR AD SPACE - 300x250]
                     </div>
                 </nav>
             </div>
@@ -167,11 +163,8 @@
 
             <!-- Top Banner Ad -->
             <div class="container mx-auto px-4">
-                <div class="promo-area h-24 w-full text-xs relative">
-                    <!-- ADSTERRA 728x90 BANNER CODE GOES HERE -->
-                    <span class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        [TOP BANNER AD SPACE - 728x90]
-                    </span>
+                <div class="ad-slot h-24 w-full text-xs">
+                    [TOP BANNER AD SPACE - 728x90]
                 </div>
             </div>
 
@@ -363,22 +356,16 @@
                         </section>
 
                         <!-- Bottom Content Ad -->
-                        <div class="promo-area h-32 w-full text-xs mt-8 relative">
-                            <!-- ADSTERRA CONTENT AD CODE GOES HERE -->
-                            <span class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                                [IN-CONTENT AD SPACE - 728x90 or Flexible]
-                            </span>
+                        <div class="ad-slot h-32 w-full text-xs mt-8">
+                            [IN-CONTENT AD SPACE - 728x90 or Flexible]
                         </div>
                     </div>
 
                     <!-- Right Ad Column -->
                     <div class="hidden lg:block lg:col-span-3 space-y-6">
                         <div class="sticky top-24">
-                            <div class="promo-area h-[600px] w-full text-xs relative">
-                                <!-- ADSTERRA STICKY AD CODE GOES HERE -->
-                                <span class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                                    [SIDEBAR STICKY AD - 160x600 or 300x600]
-                                </span>
+                            <div class="ad-slot h-[600px] w-full text-xs">
+                                [SIDEBAR STICKY AD - 160x600 or 300x600]
                             </div>
                         </div>
                     </div>
@@ -388,11 +375,8 @@
 
             <!-- Footer -->
             <footer class="mt-12 border-t py-8 text-center" :class="isDark ? 'border-slate-800' : 'border-slate-200'">
-                <div class="promo-area h-24 max-w-2xl mx-auto text-xs mb-6 relative">
-                    <!-- ADSTERRA FOOTER AD CODE GOES HERE -->
-                    <span class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        [FOOTER BANNER AD SPACE]
-                    </span>
+                <div class="ad-slot h-24 max-w-2xl mx-auto text-xs mb-6">
+                    [FOOTER BANNER AD SPACE]
                 </div>
                 <p class="text-xs opacity-50">&copy; 2024 Tools Suite. All rights reserved.</p>
             </footer>
@@ -543,9 +527,6 @@
             }
         });
     </script>
-
-
-
 </body>
 
 </html>
